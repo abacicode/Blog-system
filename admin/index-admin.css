@@ -1,0 +1,17 @@
+body{
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#submitButton{
+  width: 70px;
+  height: 30px;
+}
+
+.input{
+  margin: 50px;
+  width: 100%;
+}
