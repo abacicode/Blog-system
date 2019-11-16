@@ -1,26 +1,17 @@
-body{
+body {
   height: 800px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-
-
-  #submitDiv{
+  align-items: center; }
+  body #submitDiv {
     display: flex;
-    justify-content: flex-end;
-    #submitButton{
+    justify-content: flex-end; }
+    body #submitDiv #submitButton {
       display: flex;
       justify-content: center;
       width: 70px;
-      height: 30px;
-    }
-  }
-
-
-  .input{
+      height: 30px; }
+  body .input {
     margin: 50px;
-    width: 100%;
-  }
-
-}
+    width: 100%; }
