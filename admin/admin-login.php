@@ -8,10 +8,10 @@
   <link rel="stylesheet" type="text/css" href="admin-login.css">
 </head>
 <body>
-  <form class="log-in" action="../admin-edit/admin-add-post.php" method="post">
+  <form class="log-in" action="admin-login-processing.php" method="post">
     <div class="input">Username : <input type="text" name="user-name"></input></div>
-    <div class="input">Password : <input type="text" name="password"></input></div>
-    <div class="input" id="submitDiv"><button id= "submitButton" type="submit" name="submit">Log in</button></div>
+    <div class="input">Password : <input type="password" name="password"></input></div>
+    <div class="input" id="submitDiv"><button id= "submitButton" type="submit" name="login">Log in</button></div>
   </form>
 
 
