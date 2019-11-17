@@ -14,7 +14,7 @@
 
   <nav id="navBar">
     <a class="navOption" href="index.php">Home</a>
-    <a class="navOption" href="admin/admin-login.php">Admin</a>
+    <a class="navOption" href="admin-login/admin-login.php">Admin</a>
   </nav>
 
   <?php

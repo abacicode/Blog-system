@@ -5,6 +5,7 @@ var sassAdmin = require('gulp-sass');
 
 gulp.task('sass', function(){
   gulp.src('index.scss').pipe(sass()).pipe(gulp.dest('css'))
-  gulp.src('admin-edit/admin-add-post.scss').pipe(sass()).pipe(gulp.dest('admin-edit'))
-  gulp.src('admin/admin-login.scss').pipe(sass()).pipe(gulp.dest('admin'))
+  gulp.src('admin-add/admin-add-post.scss').pipe(sass()).pipe(gulp.dest('admin-add'))
+  gulp.src('admin-homepage/admin-homepage.scss').pipe(sass()).pipe(gulp.dest('admin-homepage'))
+  gulp.src('admin-login/admin-login.scss').pipe(sass()).pipe(gulp.dest('admin'))
 })

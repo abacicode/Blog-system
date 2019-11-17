@@ -22,7 +22,7 @@
 
   function checkPassword($db_id, $password){
     if ($password == $db_id){
-      header("Location: ../admin-edit/admin-add-post.php");
+      header("Location: ../admin-homepage/admin-homepage.php");
     }
   }
 ?>
