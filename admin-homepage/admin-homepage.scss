@@ -36,4 +36,27 @@ body{
       margin: 10px 20px 10px 10px;
     }
   }
+
+  table{
+    width: 100%;
+    margin: 30px 20px 0 20px;
+    tbody{
+      height: 80px;
+      tr{
+        .tableImageHolder{
+          justify-content: center;
+        }
+      }
+    }
+    th, td{
+      border: 1px solid black;
+      .tableImage{
+        width: 30%;
+      }
+    }
+    td{
+      height: 80px;
+    }
+  }
+
 }

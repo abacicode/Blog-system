@@ -1,3 +1,4 @@
+<?php include("../includes/establish.php")?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,5 +10,6 @@
 </head>
 <body>
   <?php include("../admin-includes/admin-navbar.php"); ?>
+  <?php include("../admin-includes/admin-table.php") ?>
 </body>
 </html>

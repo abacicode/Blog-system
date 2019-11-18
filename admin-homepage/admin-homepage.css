@@ -16,3 +16,16 @@ body {
       text-decoration: none;
       font-weight: bolder;
       margin: 10px 20px 10px 10px; }
+  body table {
+    width: 100%;
+    margin: 30px 20px 0 20px; }
+    body table tbody {
+      height: 80px; }
+      body table tbody tr .tableImageHolder {
+        justify-content: center; }
+    body table th, body table td {
+      border: 1px solid black; }
+      body table th .tableImage, body table td .tableImage {
+        width: 30%; }
+    body table td {
+      height: 80px; }
