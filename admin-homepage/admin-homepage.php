@@ -8,11 +8,6 @@
   <link rel="stylesheet"  href="admin-homepage.css">
 </head>
 <body>
-  <nav id="navBar">
-    <a class= "navOption" href="../admin-login/admin-login.php">Back</a>
-    <a class= "navOption" href="../admin-add/admin-add-post.php">Add Post</a>
-    <a class= "navOption" href="">Edit Post</a>
-    <a class= "navOption" href="../index.php">Log Out</a>
-  </nav>
+  <?php include("../admin-includes/admin-navbar.php"); ?>
 </body>
 </html>

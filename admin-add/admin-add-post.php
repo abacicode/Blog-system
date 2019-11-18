@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="admin-add-post.css">
-  <title>Admin</title>
+  <title>Add Post</title>
 </head>
 <body>
   <nav id="navBar">
@@ -31,7 +31,7 @@
     $post_description = $_POST['description'];
     move_uploaded_file($post_image_temp, "../images/$post_image");
     $query= "INSERT INTO blog(number, date, title, image, description)";
-    $query.= "VALUES('{$post_number}','{$post_date}','{$post_title}','{$post_image}','{$post_description}',)";
+    $query.= "VALUES('{$post_number}','{$post_date}','{$post_title}','{$post_image}','{$post_description}')";
     $post_added = mysqli_query($conn, $query);
     if(!$post_added){
       die("QUERY FAILED .". mysqli_error($conn));
