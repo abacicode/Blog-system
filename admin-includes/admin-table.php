@@ -20,15 +20,17 @@
         $image= $row['image'];
         $desciption= $row['description'];
         echo
-        " <tr>
+        "
+          <tr>
             <td align= 'center'>$number</td>
             <td align= 'center'>$date</td>
             <td align= 'center'>$title</td>
             <td align= 'center'><img class='tableImage' src='../images/$image'></td>
             <td>$desciption</td>
             <td align= 'center' width= '5%'><a href='../admin-edit/admin-edit-post.php?delete={$number}'>Delete</a></td>
-            <td align= 'center' width= '5%'> Edit </td>
-          </tr>";
+            <td align= 'center' width= '5%'><a href='../admin-edit/admin-edit-post.php?edit={$number}'>Edit</a></td>
+          </tr>
+        ";
       };
       if(isset($_GET['delete'])){
         $the_number= $_GET['delete'];
@@ -36,6 +38,7 @@
         $delete_query= mysqli_query($conn, $query);
         header("Location: admin-edit-post.php");
       };
+
     ?>
   </tbody>
 </table>

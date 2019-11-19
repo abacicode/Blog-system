@@ -59,4 +59,39 @@ body{
     }
   }
 
-}
+
+  #addPost{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    #div-post-description{
+      margin: 50px 0 50px 0;
+      height: 200px;
+    }
+    div{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      .add-input{
+        width: 20%;
+      }
+      #post-number{
+        display: flex;
+        text-align: center;
+        width: 100px;
+      }
+      #post-title{
+        font-size: 30px;
+        margin: 10px 0px 100px 0px;
+        border-style: solid;
+      }
+      #post-description{
+        padding: 20px;
+        border-style: solid;
+        width: 50%;
+      }
+    }
+  }
+};
