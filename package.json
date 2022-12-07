@@ -38,7 +38,7 @@
     "clone-stats": "^1.0.0",
     "decamelize": "^1.2.0",
     "default-compare": "^1.0.0",
-    "decode-uri-component": "^0.2.0"
+    "decode-uri-component": "^0.2.1"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
